@@ -35,7 +35,7 @@
         compatible = "zmk,combos";
 
         combo_esc {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
@@ -43,73 +43,78 @@
         Enter {
             bindings = <&kp KP_ENTER>;
             key-positions = <16 17 18>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         del {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 17>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         quotes {
             bindings = <&kp APOS>;
             key-positions = <7 8>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         gui {
             bindings = <&kp LEFT_GUI>;
             key-positions = <32 37>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <2 1>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         home {
             bindings = <&kp HOME>;
             key-positions = <2 3>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         end {
             bindings = <&kp END>;
             key-positions = <23 24>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         pgup {
             bindings = <&kp PAGE_UP>;
             key-positions = <7 6>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         pgdown {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <28 27>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         cc {
             bindings = <&kp LC(C)>;
             key-positions = <22 24>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         vv {
             bindings = <&kp LC(V)>;
             key-positions = <22 25>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <6 5>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
+        };
+
+        plus {
+            bindings = <&kp EQUAL>;
+            key-positions = <15 16>;
         };
     };
 
@@ -152,10 +157,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q  &kp W  &kp E             &kp R        &kp T        &kp Y           &kp U              &kp I                &kp O    &kp P
-               &kp A  &kp S  &kp D             &kp F        &kp G        &kp H           &kp J              &kp K                &kp L    &kp SEMICOLON
-&mt LCTRL ESC  &kp Z  &kp X  &kp C             &kp V        &kp B        &kp N           &kp M              &kp COMMA            &kp DOT  &kp FSLH       &kp BSLH
-                             &mt LEFT_ALT DEL  &lt NAV TAB  &kp SPACE    &kp LEFT_SHIFT  &lt SYM BACKSPACE  &mt LCTRL BACKSPACE
+               &kp Q  &kp W  &kp E             &kp R        &kp T                   &kp Y           &kp U              &kp I                &kp O    &kp P
+               &kp A  &kp S  &kp D             &kp F        &kp G                   &kp H           &kp J              &kp K                &kp L    &kp SEMICOLON
+&mt LCTRL ESC  &kp Z  &kp X  &kp C             &kp V        &kp B                   &kp N           &kp M              &kp COMMA            &kp DOT  &kp FSLH       &kp BSLH
+                             &mt LEFT_ALT DEL  &lt NAV TAB  &mt LEFT_SHIFT SPACE    &kp LEFT_SHIFT  &lt SYM BACKSPACE  &mt LCTRL BACKSPACE
             >;
         };
 
