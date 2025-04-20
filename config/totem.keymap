@@ -94,6 +94,11 @@
             bindings = <&kp LC(V)>;
             key-positions = <22 25>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <6 5>;
+        };
     };
 
     macros {
