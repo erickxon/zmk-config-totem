@@ -85,7 +85,7 @@
         pgup {
             bindings = <&kp PAGE_UP>;
             key-positions = <7 6>;
-            timeout-ms = <35>;
+            timeout-ms = <20>;
         };
 
         pgdown {
