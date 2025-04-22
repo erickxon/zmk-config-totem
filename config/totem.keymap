@@ -55,7 +55,7 @@
         quotes {
             bindings = <&kp APOS>;
             key-positions = <7 8>;
-            timeout-ms = <50>;
+            timeout-ms = <35>;
         };
 
         gui {
@@ -67,13 +67,13 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <2 1>;
-            timeout-ms = <50>;
+            timeout-ms = <35>;
         };
 
         home {
             bindings = <&kp HOME>;
             key-positions = <2 3>;
-            timeout-ms = <50>;
+            timeout-ms = <35>;
         };
 
         end {
@@ -85,13 +85,13 @@
         pgup {
             bindings = <&kp PAGE_UP>;
             key-positions = <7 6>;
-            timeout-ms = <50>;
+            timeout-ms = <35>;
         };
 
         pgdown {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <28 27>;
-            timeout-ms = <50>;
+            timeout-ms = <35>;
         };
 
         cc {
