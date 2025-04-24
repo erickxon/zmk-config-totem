@@ -121,6 +121,7 @@
         delete {
             bindings = <&kp DELETE>;
             key-positions = <12 13>;
+            timeout-ms = <20>;
         };
     };
 
