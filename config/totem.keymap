@@ -123,6 +123,18 @@
             key-positions = <12 13>;
             timeout-ms = <20>;
         };
+
+        enter2 {
+            bindings = <&kp KP_ENTER>;
+            key-positions = <16 18>;
+            timeout-ms = <50>;
+        };
+
+        tab2 {
+            bindings = <&kp TAB>;
+            key-positions = <13 2>;
+            timeout-ms = <25>;
+        };
     };
 
     macros {
