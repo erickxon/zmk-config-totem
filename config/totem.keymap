@@ -135,6 +135,11 @@
             key-positions = <13 2>;
             timeout-ms = <25>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <14 13>;
+        };
     };
 
     macros {
@@ -176,10 +181,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q  &kp W  &kp E             &kp R        &kp T                   &kp Y           &kp U              &kp I                &kp O    &kp P
-               &kp A  &kp S  &kp D             &kp F        &kp G                   &kp H           &kp J              &kp K                &kp L    &kp SEMICOLON
-&mt LCTRL ESC  &kp Z  &kp X  &kp C             &kp V        &kp B                   &kp N           &kp M              &kp COMMA            &kp DOT  &kp FSLH       &kp BSLH
-                             &mt LEFT_ALT DEL  &lt NAV TAB  &mt LEFT_SHIFT SPACE    &kp LEFT_SHIFT  &lt SYM BACKSPACE  &mt LCTRL BACKSPACE
+               &kp Q  &kp W  &kp E             &kp R          &kp T                   &kp Y           &kp U              &kp I            &kp O    &kp P
+               &kp A  &kp S  &kp D             &kp F          &kp G                   &kp H           &kp J              &kp K            &kp L    &kp SEMICOLON
+&mt LCTRL ESC  &kp Z  &kp X  &kp C             &kp V          &kp B                   &kp N           &kp M              &kp COMMA        &kp DOT  &kp FSLH       &kp BSLH
+                             &mt LEFT_ALT DEL  &lt NAV LCTRL  &mt LEFT_SHIFT SPACE    &kp LEFT_SHIFT  &lt SYM BACKSPACE  &lt 3 BACKSPACE
             >;
         };
 
