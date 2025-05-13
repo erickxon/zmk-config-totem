@@ -144,6 +144,11 @@
             bindings = <&bootloader>;
             key-positions = <10 14>;
         };
+
+        bl2 {
+            bindings = <&bootloader>;
+            key-positions = <15 19>;
+        };
     };
 
     macros {
@@ -263,9 +268,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &trans            &kp LG(LS(UP_ARROW))  &trans             &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &trans  &kp LS(LG(LEFT))  &kp LS(LG(DOWN))      &kp LG(LS(RIGHT))  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans  &trans            &trans                &trans             &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+        &trans  &trans            &kp LG(LS(UP_ARROW))  &trans             &trans    &trans  &kp F7  &kp F8  &kp F9  &trans
+        &trans  &kp LS(LG(LEFT))  &kp LS(LG(DOWN))      &kp LG(LS(RIGHT))  &trans    &trans  &kp F4  &kp F5  &kp F6  &trans
+&trans  &trans  &trans            &trans                &trans             &trans    &trans  &kp F1  &kp F2  &kp F3  &trans  &trans
                                   &trans                &trans             &trans    &trans  &trans  &trans
             >;
         };
@@ -315,9 +320,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LC(F18)  &kp LS(I)     &kp LS(HOME)  &kp LS(O)      &kp LS(F)      &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &trans       &kp LS(LEFT)  &kp LC(F17)   &kp LS(RIGHT)  &kp RET        &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp J        &kp LS(C)     &kp LC(F16)   &kp LS(V)      &kp LC(F15)    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+        &kp LC(F18)  &kp LS(I)     &kp LS(HOME)  &kp LS(O)      &kp LS(F)      &trans  &kp F7  &kp F8  &kp F9  &trans
+        &trans       &kp LS(LEFT)  &kp LC(F17)   &kp LS(RIGHT)  &kp RET        &trans  &kp F4  &kp F5  &kp F6  &trans
+&trans  &kp J        &kp LS(C)     &kp LC(F16)   &kp LS(V)      &kp LC(F15)    &trans  &kp F1  &kp F2  &kp F3  &trans  &trans
                                    &trans        &kp LC(F12)    &kp LC(F11)    &trans  &trans  &trans
             >;
         };
